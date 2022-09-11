@@ -12,9 +12,10 @@ useing Model and KaldiRecognizer from vosk package for load model.
 you can't recode sounds in colab in normal way. so threse two way to prepare the audio file
 * upload file to colab from <b>files section</b>
 * Run <b>Record Sound and save it to wav file</b> part on code to record sound.</br>
-js script used to record sound by user device. 
+js script used to record sound by user device. you can show ements like button and get the output of script with IPython.display.HTML and google.colab.output.eval_js modules. this scipt record sound using MediaRecorder package from user's microphone. the full code is available on [here](https://colab.research.google.com/gist/ricardodeazambuja/03ac98c31e87caf284f7b06286ebf7fd/microphone-to-numpy-array-from-your-browser-in-colab.ipynb#scrollTo=XZlWKbI4A1Rp).
 5. convert audio file to text using model
-## result
+get path of audio file from user the defual is same the recording part's file path. open it and make loop tho convert every frame of audio to text and get final result.
+## Result of a example
 below file was recorded by <b>Record Sound and save it to wav file</b> part on ipynb file.</br>
 
 https://user-images.githubusercontent.com/44172962/189517810-2c5e1f1f-e9ec-49dd-b902-32d7cae56598.mp4
