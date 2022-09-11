@@ -4,9 +4,15 @@ task title: develop speech recognition for persian language using vosk toolkit.<
 <i>this task develop on google colab and use pakeges related to it, so for running this task use google colab.</i>
 ## work steps:
 1. install vosk and ffmpeg-python packages using pip
-2. download perian vosk models
-3. load model
-4. audio file preparation
+2. download perian vosk models</br>
+the defualt model is vosk-model-small-fa-0.4 that isn't good enough. so <b>vosk-model-fa-0.5</b> is used in this task. with linux commands (wget, unzip) can download model file (you can access model file urls from [vosk websit](https://alphacephei.com/vosk/models)) and unzip it.
+3. load model</br>
+useing Model and KaldiRecognizer from vosk package for load model.
+4. audio file preparation</br>
+you can't recode sounds in colab in normal way. so threse two way to prepare the audio file
+* upload file to colab from <b>files section</b>
+* Run <b>Record Sound and save it to wav file</b> part on code to record sound.</br>
+js script used to record sound by user device. 
 5. convert audio file to text using model
 ## result
 below file was recorded by <b>Record Sound and save it to wav file</b> part on ipynb file.</br>
