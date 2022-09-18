@@ -8,7 +8,7 @@ this task develop on google colab and use pakeges related to it, so for running 
 CommonVoice is used for this task that is available in [link](https://commonvoice.mozilla.org/en/datasets). I used one of [nemo script](https://github.com/NVIDIA/NeMo/blob/main/scripts/dataset_processing/get_commonvoice_data.py) to load dataset. this scrpit download the dataset based on language and vesion of dataset, extract and convert to nemo valid format. unfortunately this script doesn't support the lastest version of dataset so i used cv-corpus-6.1-2020-12-11 version. 
 2. preprocess the dataset
 in this task two preprocess language task is applied:
-- replce some character that you can see the detail in image below
+- replace some character that you can see the detail in image below
 <img width="71" alt="image" src="https://user-images.githubusercontent.com/44172962/190924024-0486b9d8-3813-4073-b297-8123e45649dc.png">
 
 - delete some character like !@#$%^&* and so on
