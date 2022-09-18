@@ -20,3 +20,13 @@ there are multi pretrained model that use can see some of them in below. in this
 
 some configs like vocabulary, dataset dirs, batch_size, optimizer 's config and ... is applied on model and train it with persian dataset. 
 
+## Result
+model shows better performance after some epochs trainning.</br>
+before:
+<img width="126" alt="image" src="https://user-images.githubusercontent.com/44172962/190925462-8ecb0e27-e4d1-4d2b-a8e0-9c4fb24bf664.png">
+
+after some epochs:
+<img width="135" alt="image" src="https://user-images.githubusercontent.com/44172962/190925497-34db3a7d-2fd9-4512-a08d-0c8731ee8ba5.png">
+
+<i>Unfortunately, because of the limitation of Google colab, the process of training the model has not been completed, and the results will be shared here after the full trainning.</i>
+
