@@ -21,7 +21,7 @@ there are multi pretrained model that use can see some of them in below. in this
 <img width="690" alt="image" src="https://user-images.githubusercontent.com/44172962/190924496-22f4d3af-5a34-45ee-8a21-f1c3e45ff75c.png">
 
 some configs like vocabulary, dataset dirs, batch_size, optimizer 's config and ... is applied on model and train it with persian dataset.</br>
-<i>also save model checkpoints and resume pretrained model from checkpoint file is considered but it look likes there is a bug in pytorch lightning package that model is trained from scratch (has higher loss than last epoch that is trained) and has low training performance (decreasing the loss is so slow). this issue is mentioned [here](https://github.com/Lightning-AI/lightning/issues/4045) too.</i>
+<i>also save model checkpoints and resume pretrained model from checkpoint file is considered but it look likes there is a bug in pytorch lightning package that model has higher loss than last epoch that is trained and has low training performance (decreasing the loss is so slow). this issue is mentioned [here](https://github.com/Lightning-AI/lightning/issues/4045) too.</i>
 
 ## Result
 model shows better performance after some epochs trainning.</br>
