@@ -21,7 +21,7 @@ there are multi pretrained model that use can see some of them in below. in this
 <img width="690" alt="image" src="https://user-images.githubusercontent.com/44172962/190924496-22f4d3af-5a34-45ee-8a21-f1c3e45ff75c.png">
 
 some configs like vocabulary, dataset dirs, batch_size, optimizer 's config and ... is applied on model and train it with persian dataset.</br>
-<i>also resume pretrained model from file is considered but it look likes there is a bug in pytorch lightning package that model is trained from scratch (has higher loss than last epoch that is trained) and has low training performance (decreasing the loss is so slow). this issue is mentioned [here](https://github.com/Lightning-AI/lightning/issues/4045) too.</i>
+<i>also save model checkpoints and resume pretrained model from checkpoint file is considered but it look likes there is a bug in pytorch lightning package that model is trained from scratch (has higher loss than last epoch that is trained) and has low training performance (decreasing the loss is so slow). this issue is mentioned [here](https://github.com/Lightning-AI/lightning/issues/4045) too.</i>
 
 ## Result
 model shows better performance after some epochs trainning.</br>
@@ -31,5 +31,5 @@ before:
 after 5 epochs:
 <img width="135" alt="image" src="https://user-images.githubusercontent.com/44172962/190925497-34db3a7d-2fd9-4512-a08d-0c8731ee8ba5.png">
 
-<i>Unfortunately, because of the limitation of Google colab, the process of training the model has not been completed, and the results will be shared here after the full trainning.</i>
+<i>Unfortunately, because of the limitation of Google colab, the process of training the model has not been completed, and model is trained in 7 epochs. the results will be shared here after the full trainning.</i>
 
