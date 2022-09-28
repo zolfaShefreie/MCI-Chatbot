@@ -31,5 +31,5 @@ before:
 after 5 epochs:
 <img width="135" alt="image" src="https://user-images.githubusercontent.com/44172962/190925497-34db3a7d-2fd9-4512-a08d-0c8731ee8ba5.png">
 
-<i>Unfortunately, because of the limitation of Google colab, the process of training the model has not been completed, and model is trained in 7 epochs. the results will be shared here after the full trainning.</i>
+<i>Unfortunately, because of the limitation of Google colab, the process of training the model has not been completed, and model is trained in <b>7 epochs</b>. the results will be shared here after the full trainning.</i>
 
