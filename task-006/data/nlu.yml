@@ -3,89 +3,87 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - هی
+    - سلام
+    - های
+    - روز بخیر
+    - عصر بخیر
+    - درود
+    - بزن بریم
+    - سلام رفیق
+    - صبح بخیر
+    - ظهر بخیر
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - بای
+    - خداحافظ
+    - بعدا می ‌بینمت
+    - شب بخیر
+    - خدانگهدار
+    - فعلا
+    - روز خوبی داشته باشی
+    - می بینمت
+
 
 - intent: affirm
   examples: |
     - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - بله
+    - تقریبا
+    - حتما
+    - به نظر خوب میاد
+    - درست
+    - آره
 
 - intent: deny
   examples: |
     - no
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - نه
+    - خیر
+    - اصلا
+    - فکر نکنم
+    - دوستش ندارم
+    - نه اصلا
+    - نه بابا
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - عالی
+    - خوب
+    - شگفت انگیز
+    - بهتر از این نمیشه
+    - فوق العاده
+    - خیلی احساس خوبی دارم
+    - من عالی ام
+    - من شگفت انگیزم
+    - من عالی هستم
+    - بهتر از این نمیشه
+    - فوق العاده خوب
+    - خوبم
+    - خیلی خوب
+    - خیلی عالی
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - روز بدی داشتم
+    - ناراحتم
+    - حالم خیلی خوب نیست
+    - ناامیدم
+    - خیلی ناراحتم
+    - خیلی غمگینم
+    - ناراحت
+    - خیلی ناراحتم
+    - خوش حال نیستم
+    - خوب نیستم
+    - خیلی خوب نیستم
+    - خیییلییی ناراحتم
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - تو رباتی؟
+    - تو انسان هستی؟
+    - من دارم با یک ربات حرف می زنم؟
+    - من دارم با یک انسان حرف می زنم؟
